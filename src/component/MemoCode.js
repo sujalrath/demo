@@ -4,7 +4,12 @@ import Todos from "./Todo";
 function Count()
 {
     const[count,setCount]=useState(0);
-    const[todos,setTodo]=useState("1 : Get the task","2 : Complete the task")
+    const todos = [{
+    1: "Get the task"
+  },
+  {
+    2: "Complete the task"
+  }]
 
     const increment = () => {
         setCount((c) => c + 1);
