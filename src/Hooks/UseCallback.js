@@ -12,7 +12,7 @@ const Countt = () => {
   };
   const addTodo = useCallback(() => {
     setTodos((t) => [...t, "New Todo"]);
-  }, [todos]);
+  }, []);
 
   return (
     <>
