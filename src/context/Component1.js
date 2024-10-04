@@ -14,7 +14,7 @@ const handleDarkTheme=()=>{
 }
 return(
     <UserContext.Provider value={data} color={color} >
-        <h1></h1>
+     
         <button onClick={handleDarkTheme}>Dark</button>
         <Component2 />
     </UserContext.Provider>
