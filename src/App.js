@@ -6,7 +6,7 @@ import Countt from './Hooks/UseCallback';
 function App() {
   return (
     <div className="App">
-      <h1>Registration Form thari bhai ne </h1>
+      <h1>Registration Form thari ne </h1>
       {/* <Check color="red"/>
       <Football />
       <Goal isGoal={true} />
